@@ -1,0 +1,224 @@
+.box-1 {
+	width:750px; 
+	height:750px; 
+	background-color:black; 
+	position:absolute;
+	top:calc(50% - 375px);
+	left:calc(50% - 375px); 
+}
+
+@-webkit-keyframes m1 {
+	from{margin-left:0;}
+	to{margin-left:700px;}
+}
+
+@-webkit-keyframes m2 {
+	from{margin-top:0;}
+	to{margin-top:700px;}
+}
+
+@-webkit-keyframes m3 {
+	from{margin-top:0;}
+	to{margin-top:-700px;}
+}
+
+@-webkit-keyframes m4 {
+	from{margin-left:0;}
+	to{margin-left:-700px;}
+}
+
+.mbox-1-1 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	animation-name: m1;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.mbox-1-2 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	left:700px;
+	animation-name: m2;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.mbox-1-3 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	top:700px;
+	animation-name: m3;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.mbox-1-4 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	left:700px;
+	top:700px;
+	animation-name: m4;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.box-2 {
+	width:650px; 
+	height:650px; 
+	background-color:black; 
+	position:absolute;
+	top:calc(50% - 325px);
+	left:calc(50% - 325px); 
+}
+
+
+
+@-webkit-keyframes m5 {
+	from{margin-top:0;}
+	to{margin-top:600px;}
+}
+
+@-webkit-keyframes m6 {
+	from{margin-left:0;}
+	to{margin-left:-600px;}
+}
+
+@-webkit-keyframes m7 {
+	from{margin-left:0;}
+	to{margin-left:600px;}
+}
+
+@-webkit-keyframes m8 {
+	from{margin-top:0;}
+	to{margin-top:-600px;}
+}
+
+.mbox-2-1 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	animation-name: m5;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.mbox-2-2 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	left:600px;
+	animation-name: m6;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.mbox-2-3 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	top:600px;
+	animation-name: m7;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+.mbox-2-4 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:#ffb6d0;
+	left:600px;
+	top:600px;
+	animation-name: m8;
+	animation-duration:3s;
+	animation-timing-function:ease-out;
+	animation-iteration-count:infinite;
+}
+
+
+
+.box-3 {
+	width:550px;
+	height:550px;
+	background-color:white; 
+	position:absolute;
+	top:calc(50% - 275px);
+	left:calc(50% - 275px); 
+}
+
+
+
+.mbox-black {
+	width:50px;
+	height:50px;
+	float:left;
+	transition-property:all;
+	transition-duration:1s;
+
+	animation:black;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+	animation-play-state:paused;
+}
+
+.mbox-black:hover {
+	transform:rotate(180deg);
+	animation-play-state:running;
+    background-color:black;
+}
+
+@keyframes black {
+	0% {background-color:white;}
+	100% {background-color:black;}
+}
+
+
+
+
+.mbox-pink {
+	width:50px;
+	height:50px;
+	float:left;
+	transition-property:all;
+	transition-duration:1s;
+	transform:scale(1, 1);
+
+	animation:pink;
+	animation-duration:0.3s;
+	animation-fill-mode:forwards;
+	animation-play-state:paused;
+}
+
+.mbox-pink:hover {
+	transform:rotate(180deg);
+	transform:scale(0.5, 0.5);
+	animation-play-state:running;
+    background-color:pink;
+}
+
+@keyframes pink {
+	0% {background-color:white;}
+	100% {background-color:#ffb6d0;}
+}
+
+
+
